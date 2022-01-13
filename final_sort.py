@@ -16,7 +16,7 @@ from tkinter.filedialog import askdirectory
 
 root = tk.Tk()
 root.withdraw()
-
+root.mainloop()
 filepath = askdirectory()
 
 #Get all the files in the top level of the DICOM folder
