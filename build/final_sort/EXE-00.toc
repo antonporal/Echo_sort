@@ -3,7 +3,7 @@
  True,
  False,
  True,
- None,
+ 'icon.ico',
  None,
  False,
  False,
@@ -54,7 +54,7 @@
  [],
  False,
  False,
- 1642192838,
+ 1642195494,
  [('run.exe',
    'C:\\Users\\aporal\\Anaconda3\\envs\\DICOM\\lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit\\run.exe',
    'EXECUTABLE')])
