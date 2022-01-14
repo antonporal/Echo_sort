@@ -13,7 +13,7 @@ import tkinter as tk
 from tkinter import filedialog
 
 #GUI for selecting DICOM folder
-
+window = tk.Tk()
 root = tk.Tk()
 root.withdraw()
 
@@ -38,3 +38,7 @@ for f in files:
         else:
             newPath = folder+"\\"+f
             ds.save_as(newPath)
+window.title(filepath)
+window.after(1000, window.quit)
+window.after(1000, window.destroy)
+window.mainloop()
