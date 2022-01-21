@@ -1,3 +1,0 @@
-('E:\\Projects\\Programming\\Python '
- 'Scripts\\Echo_sort\\build\\final_sort\\PYZ-00.pyz',
- [])
